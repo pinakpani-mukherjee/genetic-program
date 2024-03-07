@@ -5,7 +5,7 @@
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
 
-// macro for writing errors to terminal
+// macro for writing errors to terminal for functions with ints as return values
 int scc(int code)
 {
     if (code < 0)
@@ -16,6 +16,7 @@ int scc(int code)
     return code;
 }
 
+// macro for writing errors to terminal for functions with pointers as return values
 void *scp(void *ptr)
 {
     if (ptr == NULL)
