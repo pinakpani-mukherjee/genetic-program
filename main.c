@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
                 break;
             }
         }
-        scc(SDL_SetRenderDrawColor(renderer, 150, 150, 150, 255));
+        scc(SDL_SetRenderDrawColor(renderer, 30, 30, 30, 255));
         scc(SDL_RenderClear(renderer));
         SDL_RenderPresent(renderer);
     }
